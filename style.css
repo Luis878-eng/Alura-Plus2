@@ -1,0 +1,192 @@
+
+:root 
+
+{
+    --cor-de-fundo: #00030c;
+    --branco-principal: #fff;
+    --botao-azul: #167BF7;
+    --cinza: #C0C0C0;
+    --fonte-principal: 'Inter';
+}
+
+*
+{
+    padding: 0%;
+    margin: 0%;
+}
+
+body
+
+{
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.principal
+
+{
+    background-image: url("Img/Background.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+
+    
+}
+
+.container
+
+{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+.apresentacao_imagem
+
+{
+    margin: 1em 0 1em 0;
+}
+
+.container_botao
+
+{
+    display: flex;
+    width: 512px;
+    padding: 16px;
+    margin: 1em 0 1em 0;
+    background-color: #167BF7;
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    
+}
+
+.container_botao_segundo
+
+{
+    display: flex;
+    width: 512px;
+    padding: 16px;
+    border: 1px solid var(--branco-principal);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--branco-principal);
+    background-color: transparent;
+    font-size: normal;
+}
+
+
+.container_paragrafo
+
+{
+    font-size: 12px;
+    color: var(--cinza);
+}
+
+.apresentacao__conteudo__titulo
+
+{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.container_caixa
+
+{
+    margin: 0 6em; 
+}
+
+.conteiner_caixa_segundaria
+
+{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.imagem_secundario
+
+{
+    width: 60%;
+    padding-left: 30%;
+}
+
+.secundario
+
+{
+    align-items: center;
+}
+
+.container__descricao
+
+{
+    padding-right: 25%;
+    margin: 5%;
+}
+
+.descricao_titulo
+
+{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.descricao_paragrafo
+
+{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--cinza);
+   
+}
+
+.container__descricao__segunda
+
+{
+    margin-left: 100px;
+}
+
+.terceiro
+
+{
+    align-items: center;
+}
+
+.imagem_terceira
+
+{
+    margin-left: 50px;
+}
+
+.container_botao_terceiro
+
+{
+    display: flex;
+    width: 162px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: var(--botao-azul);
+    color: var(--branco-principal);
+    text-decoration: none;
+    
+    
+}
+
+.quarto
+
+{
+    align-items: center;
+    padding: 0 5%;
+}
+
+
+a 
+{
+    align-items: center;
+    text-align: center;
+}
